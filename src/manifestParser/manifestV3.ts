@@ -30,6 +30,7 @@ export default class ManifestV3 extends ManifestParser<Manifest> {
       manifest.chrome_url_overrides?.history,
       manifest.chrome_url_overrides?.bookmarks,
       manifest.side_panel?.default_path,
+      manifest.sidebar_action?.default_panel,
     ]
       .filter((fileName): fileName is string => typeof fileName === "string")
       .map((fileName) => fileName.split(/[\?\#]/)[0]);
