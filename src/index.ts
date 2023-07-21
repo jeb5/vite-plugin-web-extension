@@ -66,7 +66,6 @@ export default function webExtension(
     buildStart() {
       emitQueue.forEach((file) => {
         this.emitFile(file);
-        //@ts-expect-error
         this.addWatchFile(file.fileName ?? file.name!);
       });
       emitQueue = [];
