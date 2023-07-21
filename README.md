@@ -1,5 +1,9 @@
 # @samrum/vite-plugin-web-extension
 
+## Fork:
+
+Includes Firefox sidebar support
+
 [![npm version](https://img.shields.io/npm/v/@samrum/vite-plugin-web-extension)](https://www.npmjs.com/package/@samrum/vite-plugin-web-extension)
 [![node compatibility](https://img.shields.io/node/v/@samrum/vite-plugin-web-extension)](https://nodejs.org/en/about/releases/)
 [![ci](https://github.com/samrum/vite-plugin-web-extension/actions/workflows/ci.yml/badge.svg)](https://github.com/samrum/vite-plugin-web-extension/actions/workflows/ci.yml)
